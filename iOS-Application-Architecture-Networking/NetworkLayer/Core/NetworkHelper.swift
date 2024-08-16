@@ -20,7 +20,7 @@ enum ErrorType: String, Error{
 class NetworkHelper{
     static let shared = NetworkHelper()
     
-    let baseURL = "https://jsonplaceholder.typicode.com/"
+    let baseURL = "https://api.tvmaze.com/search/shows?q=golden%20girls"
     
     let header = ["Auth": "Bearer"]
     
